@@ -1,0 +1,26 @@
+{
+  "name": "MySampleApp",
+  "version": "2.1.0",
+  "description": "MySampleApp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "do_package.bat && electron-installer-windows --src dist/MySampleApp-win32-x64 --dest dist/installers/"
+  },
+  "filename": "license.pdf",
+  "author": "DTLTAKE",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "babel-preset-minify": "^0.5.0",
+    "electron": "^4.0.6",
+    "electron-installer-windows": "^2.0.0",
+    "electron-packager": "^13.1.1",
+    "electron-winstaller": "^3.0.4"
+  },
+  "dependencies": {
+    "install": "^0.12.1",
+    "jquery": "^3.3.1",
+    "npm": "^6.4.1"
+  }
+}

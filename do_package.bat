@@ -1,0 +1,1 @@
+"node_modules/.bin/electron-packager" . --overwrite --platform=win32 --arch=x64 --prune=true --out=dist/ --version-string.ProductName=\"MySampleApp\"
